@@ -21,4 +21,4 @@ tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
 ## Summary 
 #### By refactoring code, in general, we were able to bring down the time it took. This will help when the data volume gets higher. However, creating tickerIndex and three different arrays takes a long time to think about and there's more chance that we need lots of debugging because of spellings and mistkakes.
 
-#### using original VBA script was simpler to understand for me and it didn't seem like a long time to run the program. Hoever, as the data gets incredibly large, it will be hard to manage the time it takes. 
+#### using original VBA script was simpler to understand for me and it didn't seem like a long time to run the program. However, as the data gets incredibly large, it will be hard to manage the time it takes. 
